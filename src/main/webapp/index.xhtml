@@ -21,5 +21,17 @@
             #{etudiant.email}
         </h:column>
     </h:dataTable>
+
+    <h:form >
+        <h:outputLabel for="nom" value="Nom" />
+        <h:inputText id="nom" value="#{etudiant.nom}" />
+
+        <h:outputLabel for="prenom" value="Prenom" />
+        <h:inputText id="prenom" value="#{etudiant.prenom}" />
+
+        <h:outputLabel for="email" value="Email" />
+        <h:inputText id="email" value="#{etudiant.email}" />
+    </h:form>
+
 </h:body>
 </html>
